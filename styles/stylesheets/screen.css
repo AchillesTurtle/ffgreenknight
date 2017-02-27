@@ -134,7 +134,19 @@ article {
 aside {
   float: right; }
 
+figure table {
+  margin: inherit;
+  margin-left: auto;
+  margin-right: auto; }
+  figure table tr td {
+    width: 50vw; }
+    figure table tr td img {
+      width: 100%; }
+
 footer {
   display: inline-box; }
-  footer .author {
-    color: #9CA93E; }
+  footer section.author {
+    color: #9CA93E;
+    display: box; }
+  footer section.copyright {
+    display: box; }

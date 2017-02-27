@@ -48,8 +48,6 @@ nav
         font-style: bold
         link-style: none
 
-
-
 hgroup
   background-image: image-url('old_dead_plane.jpg')
   background-size: cover
@@ -112,12 +110,25 @@ article
 aside
   float: right
 
+// Image Gallery Table
+figure
+  table
+    margin: inherit
+    margin-left: auto
+    margin-right: auto
+    tr
+      td
+        width: 50vw
+        img
+          width: 100%
+
 // Footer
 
 footer
   display: inline-box
-  .author
+  section.author
     color: $H_color_primary
-
-
+    display: box
+  section.copyright
+    display: box
 
