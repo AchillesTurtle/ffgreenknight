@@ -1,0 +1,140 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+body {
+  font-family: helvetica, sans-seriff;
+  font-size: 1em;
+  color: #D3D2C6;
+  background-color: #AFAC93; }
+
+main {
+  color: #F9F5D5;
+  margin: 3.5em;
+  padding: 0.75em;
+  line-height: 1.375em;
+  line-spacing: 1.375em;
+  letter-spacing: 0.08333em; }
+
+nav ul {
+  border-bottom: 0.5em #9CA93E;
+  margin-right: 1.5em;
+  margin-top: 1em;
+  text-align: right; }
+  nav ul li {
+    display: inline;
+    padding: 0.5em; }
+    nav ul li a {
+      color: #6F89A3;
+      font-style: bold;
+      link-style: none; }
+
+hgroup {
+  background-image: url('../images/old_dead_plane.jpg?1487880419');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1em #9CA93E;
+  border-style: solid;
+  margin-left: -0.5em;
+  margin-top: 0.5em;
+  width: 100%;
+  height: 100%; }
+  hgroup h1 {
+    color: #D3D2C6;
+    font-size: 14vw;
+    font-style: bold;
+    font-weight: bold;
+    letter-spacing: -0.06667em;
+    line-spacing: -2.625em;
+    line-weight: bold;
+    margin-left: 0;
+    margin-top: -0.25em;
+    opacity: 0.8;
+    padding-right: -0.5em;
+    text-align: right;
+    text-transform: uppercase; }
+  hgroup h2 {
+    font-size: 1.5em;
+    color: #D3D2C6;
+    background-color: #9CA93E;
+    margin-left: 1em;
+    opacity: 0.9;
+    padding: 0.5em;
+    width: 40%; }
+
+article {
+  float: left; }
+  article header h3 {
+    background-color: #9CA93E;
+    font-weight: bold;
+    padding: 0.5em;
+    width: 40%; }
+  article p {
+    margin-bottom: 1em; }
+  article footer {
+    background-color: #A09C7D;
+    border-right: 1em;
+    color: #C3C1AE;
+    font-size: 0.75em;
+    font-style: italic;
+    margin-top: 3em;
+    margin-left: 4.5em;
+    margin-right: 9em;
+    padding: 0.5em;
+    padding-right: 1.5em;
+    text-align: right; }
+
+aside {
+  float: right; }
+
+footer {
+  display: inline-box; }
+  footer .author {
+    color: #9CA93E; }

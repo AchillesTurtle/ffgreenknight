@@ -1,0 +1,8 @@
+- items = Array.new(20) {Array.new(3)}
+
+%table
+  %tbody
+    - items.each do |row|
+      %tr
+        - row.each do |column|
+          %td= column

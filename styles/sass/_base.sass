@@ -1,0 +1,123 @@
+// _base.sass
+
+$space: .5em
+$leading: $space * 2.75
+$kern: $space / 6
+$type_unit: 1em
+$font: helvetica, sans-seriff
+
+// Header Colors
+$H_color_primary: #9CA93E
+$H_color_secondary: #6F89A3
+$H_color_tertiary: #4B6989
+$H_bgcolor_primary: #7B8720
+$H_bgcolor_secondary: #1B3A5A
+
+// Article Colors
+$A_color-primary: #D3D2C6
+$A_color-secondary: #F9F5D5
+$A_color-tertiary: #C3C1AE
+$A_bgcolor-primary: #AFAC93
+$A_bgcolor-secondary: #A09C7D
+
+body
+  font-family: $font
+  font-size: $type_unit
+  color: $A_color_primary
+  background-color: $A_bgcolor_primary
+
+main
+  color: $A_color_secondary
+  margin: $space + 3
+  padding: $space * 1.5
+  line-height: $leading
+  line-spacing: $leading
+  letter-spacing: $kern
+
+nav
+  ul
+    border-bottom: $space $H_color_primary
+    margin-right: $space * 3
+    margin-top: $space * 2
+    text-align: right
+    li
+      display: inline
+      padding: $space
+      a
+        color: $H_color_secondary
+        font-style: bold
+        link-style: none
+
+
+
+hgroup
+  background-image: image-url('old_dead_plane.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  border-bottom: $type_unit $H_color_primary
+  border-style: solid
+  margin-left: - $space
+  margin-top: $space
+  width: 100%
+  height: 100%
+
+
+  h1
+    color: $A_color_primary
+    font-size: 14vw
+    font-style: bold
+    font-weight: bold
+    letter-spacing: $kern - 0.15
+    line-spacing: $leading - 4
+    line-weight: bold
+    margin-left: 0
+    margin-top: $space - .75
+    opacity: 0.8
+    padding-right: $space - 1
+    text-align: right
+    text-transform: uppercase
+  h2
+    font-size: $type_unit * 1.5
+    color: $A_color_primary
+    background-color: $H_color_primary
+    margin-left: $space * 2
+    opacity: 0.9
+    padding: $space
+    width: 40%
+
+
+article
+  float: left
+  header
+    h3
+      background-color: $H_color_primary
+      font-weight: bold
+      padding: $space
+      width: 40%
+  p
+    margin-bottom: $space * 2
+  footer
+    background-color: $A_bgcolor_secondary
+    border-right: $space * 2
+    color: $A_color_tertiary
+    font-size: $type_unit - 0.25
+    font-style: italic
+    margin-top: $space * 6
+    margin-left: $space * 9
+    margin-right: $space * 18
+    padding: $space
+    padding-right: $space + 1
+    text-align: right
+
+aside
+  float: right
+
+// Footer
+
+footer
+  display: inline-box
+  .author
+    color: $H_color_primary
+
+
+
